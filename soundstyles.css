@@ -3,16 +3,17 @@ body {
   padding: 0;
   overflow-x: hidden; 
   width: 100%;
-
+display: grid;
   justify-content: center; 
 }
 
 .container {
-  width: 1600px;
+  width: 1200px; 
   position: relative;
   transform-origin: top center; 
   margin: 0 auto;
 }
+
 
 
 .logo{
@@ -55,10 +56,11 @@ place-self: center;
     
   }
   .comic-page3 {
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr 1fr;
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 15px;
-    max-width: 90vw;
+    
+    max-width: 75vw;
     margin-top: 50px;
     background: #16E9C2;
     padding: 5px;
@@ -127,10 +129,10 @@ place-self: center;
   
   
   .comic-button {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 15px 30px;
+      font-family: 'Times New Roman', serif;
+  font-weight: bold;
+font-size: 16px;
+    padding: 15px 25px;
     color: #000;
     background-color: #e8ab17;
     border: 4px solid #000;
@@ -154,10 +156,10 @@ place-self: center;
   }
 
   .comic-button2 {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 15px 30px;
+       font-family: 'Times New Roman', serif;
+  font-weight: bold;
+ font-size: 16px;
+    padding: 15px 25px;
     color: #000;
  background-color: #16E9C2;
     border: 4px solid #000;
@@ -230,9 +232,9 @@ place-self: center;
 
 
 .comic-textbox1 {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Times New Roman', serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   padding: 15px 30px;
   color: #000;
   background-color: #e8ab17;
@@ -241,20 +243,18 @@ place-self: center;
   box-shadow: 5px 5px 0px #000;
   text-transform: uppercase;
   width: 700px;      
-  height:225px;
+  height:130px;
   text-align: center; 
   user-select: none;  
   place-self: center;
   z-index: 1000;
   margin: 10px;
-  
-
 }
 
 .comic-textbox2 {
-    font-family: 'Comic Sans MS', 'Comic Sans';
+     font-family: 'Times New Roman', serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   padding: 15px 30px;
   color: #000;
   background-color: #e8ab17;
@@ -279,10 +279,10 @@ width: 900px;
 
 
 .comic-button3 {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 15px 30px;
+       font-family: 'Times New Roman', serif;
+  font-weight: bold;
+ font-size: 16px;
+    padding: 15px 25px;
     color: #000;
     border: 4px solid #000;
     border-radius: 15px;
